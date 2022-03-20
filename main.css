@@ -1,0 +1,30 @@
+
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background: #7A419B;
+    background: linear-gradient(135deg, #7c1599 0%,#921099 48%,#7e4ae8 100%);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 900px;
+    
+  }
+  div{
+    padding-top: 900px;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+  }
+  img{
+    width: 20%;
+    opacity: 0;
+    transition: 1s ease;
+
+    transform: scale(0.5) translateX(1000px); 
+  }
+  .here{
+    opacity: 1 !important;
+    transform: scale(1) translateX(0) !important;
+  }
